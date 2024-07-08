@@ -34,7 +34,7 @@ make sure you're in the /Downloads directory
 <h2>GUNICORN INSTALLATION: </h2>
 <li>" pip install gunicorn "</li>
 <h1>After that you've installed everythin we'll start with the server</h1>
-<li> put "app.py" and "/templates/index.html" and "/uploads/" in var/www/html/ </li>
+<li> put "app.py" and "/templates/index.html" and "/uploads/" and "/instances/" in var/www/html/ </li>
 your /var/www/html/ should look like this 
 <img src="screenshot1.PNG">
 <li>open a terminal then type the command "cd /var/www/html"</li>
