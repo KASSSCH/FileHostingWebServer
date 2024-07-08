@@ -27,3 +27,10 @@ make sure you're in the /Downloads directory
 <div>
 <a href="">Here is a youtube guide</a>
 </div>
+
+<h2>FLASK INSTALLATION: </h2>
+<li>pip install Flask</li>
+
+<h2>GUNICORN INSTALLATION: </h2>
+<li>" pip install gunicorn "</li>
+
