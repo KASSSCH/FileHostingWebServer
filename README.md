@@ -44,6 +44,8 @@ your /var/www/html/ should look like this
 it should look something like this <img src="screenshot2.PNG">
 
 NGROK will give you a url you can share it with friends from anywhere to share files!
+all the uploads will be saved in /var/www/html/uploads/
+you might need to run "sudo chmod -R 755 /var/www/html" if the you get a premission error
 
 For any help join my discord server 
 <a href="https://discord.gg/587R6vqK8w">JOIN SERVER!</a>
