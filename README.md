@@ -25,7 +25,7 @@ make sure you're in the /Downloads directory
 <li> "./ngrok authtoken [your_auth_token]"</li>
 <b> TO GET YOUR TOKEN GO TO NGROK.COM AND REGISTER...</b>
 <div>
-<a href="">Here is a youtube guide</a>
+<a href="https://www.youtube.com/watch?v=LYmhwKVNjk4&ab_channel=TECHDHEE">Here is a youtube guide</a>
 </div>
 
 <h2>FLASK INSTALLATION: </h2>
