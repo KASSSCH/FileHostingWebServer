@@ -7,9 +7,14 @@ Basic webpage made for hosting files and accessing them from any part of the glo
 using python-flask, html/js , gunicorn, and ngrok. easy to use just follow the instructions!
 
 <h1>installation</h1>
-</h3> *YOU SHOULD HAVE: *</h3>
-ngrok
-flask
-gunicorn
+First make sure that you have:
+<ul>
+  <li>ngrok</li>
+  <li>flask</li>
+  <li>gunicorn</li>
+</ul>
+
+
+
 
 to install them 
