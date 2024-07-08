@@ -47,7 +47,7 @@ NGROK will give you a url you can share it with friends from anywhere to share f
 all the uploads will be saved in /var/www/html/uploads/
 you might need to run "sudo chmod -R 755 /var/www/html" if the you get a premission error
 once you've done all the steps you should have something like this 
-<img src="screeshot3.PNG">
+<img src="screenshot3.PNG">
 
 For any help join my discord server 
 <a href="https://discord.gg/587R6vqK8w">JOIN SERVER!</a>
