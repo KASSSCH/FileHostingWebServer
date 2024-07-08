@@ -20,8 +20,8 @@ First make sure that you have:
 to install them first:
 <h2>NGROK INSTALLATION: </h2>
 make sure you're in the /Downloads directory
-<li> " wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz "
-<li> "tar zxvf /path/to/ngrok.tgz"
-<li></li> "./ngrok authtoken [your_auth_token]"
+<li> " wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz "</li>
+<li> "tar zxvf /path/to/ngrok.tgz"</li>
+<li> "./ngrok authtoken [your_auth_token]"</li>
 <b> TO GET YOUR TOKEN GO TO NGROK.COM AND REGISTER</b>
 <a href="">Here is a youtube guide</a>
