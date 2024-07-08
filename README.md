@@ -42,4 +42,4 @@ make sure you're in the /Downloads directory
 NGROK will give you a url you can share it with friends from anywhere to share files!
 
 For any help join my discord server 
-<a href="https://discord.gg/587R6vqK8w">Here is a youtube guide</a>
+<a href="https://discord.gg/587R6vqK8w">JOIN SERVER!</a>
