@@ -35,6 +35,8 @@ make sure you're in the /Downloads directory
 <li>" pip install gunicorn "</li>
 <h1>After that you've installed everythin we'll start with the server</h1>
 <li> put "app.py" and "/templates/index.html" and "/uploads/" in var/www/html/ </li>
+your /var/www/html/ should look like this 
+<img src="screenshot1.PNG">
 <li>open a terminal then type the command "cd /var/www/html"</li>
 <li>run " sudo python app.py "</li>
 <li>then open a new terminal in the same directory and run " python3 -m gunicorn -w 4 -b 127.0.0.1:8080 app:app "</li>
