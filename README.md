@@ -33,4 +33,13 @@ make sure you're in the /Downloads directory
 
 <h2>GUNICORN INSTALLATION: </h2>
 <li>" pip install gunicorn "</li>
+<h1>After that you've installed everythin we'll start with the server</h1>
+<li> put "app.py" and "/templates/index.html" and "/uploads/" in var/www/html/ </li>
+<li>open a terminal then type the command "cd /var/www/html"</li>
+<li>run " sudo python app.py "</li>
+<li>then open a new terminal in the same directory and run " python3 -m gunicorn -w 4 -b 127.0.0.1:8080 app:app "</li>
+<li>last step run 'sudo ngrok http server in a new terminal that can be in any directory"</li>
+NGROK will give you a url you can share it with friends from anywhere to share files!
 
+For any help join my discord server 
+<a href="https://discord.gg/587R6vqK8w">Here is a youtube guide</a>
