@@ -37,7 +37,7 @@ make sure you're in the /Downloads directory
 <li> put "app.py" and "/templates/index.html" and "/uploads/" and "/instance/" in var/www/html/ </li>
 your /var/www/html/ should look like this 
 <img src="screenshot1.PNG">
-<li>open a terminal then type the command "cd /var/www/html"</li>
+<li>open a terminal in the same directory</li>
 <li>run " sudo python app.py "</li>
 <li>then open a new terminal in the same directory and run " python3 -m gunicorn -w 4 -b 127.0.0.1:8080 app:app "</li>
 <li>last step run "ngrok http 5000" in a new terminal that can be in any directory"</li>
