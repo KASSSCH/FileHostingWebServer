@@ -20,9 +20,9 @@ First make sure that you have:
 to install them first:
 <h2>NGROK INSTALLATION: </h2>
 make sure you're in the /Downloads directory
-<li><pre> " wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz "</pre></li>
-<li><pre> "tar zxvf /path/to/ngrok.tgz"</pre></li>
-<li><pre> "./ngrok authtoken [your_auth_token]"</pre></li>
+<pre> " wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz "</pre>
+<pre> "tar zxvf /path/to/ngrok.tgz"</pre>
+<pre> "./ngrok authtoken [your_auth_token]"</pre>
 <br>
 <b> TO GET YOUR TOKEN GO TO NGROK.COM AND REGISTER...</b>
 <div>
@@ -40,18 +40,18 @@ make sure you're in the /Downloads directory
 your /var/www/html/ should look like this 
 <img src="screenshot1.PNG">
 <li>open a terminal in the same directory</li>
-<li><pre>" sudo python app.py "</pre></li>
+<pre>" sudo python app.py "</pre>
 <li>then open a new terminal in the same directory and run </li>
-<li><pre>" python3 -m gunicorn -w 4 -b 127.0.0.1:8080 app:app "</pre></li>
+<pre>" python3 -m gunicorn -w 4 -b 127.0.0.1:8080 app:app "</pre>
 <li>once again open a new terminal wherever you like and run</li>
-<li><pre>"ngrok http 5000"</pre></li>
+<pre>"ngrok http 5000"</pre>
 <br>
 it should look something like this <img src="screenshot2.PNG">
 
 NGROK will give you a url you can share it with friends from anywhere to share files!
 all the uploads will be saved in /var/www/html/uploads/
 you might need to run 
-<li><pre>"sudo chmod -R 755 /var/www/html"</pre> </li>
+<pre>"sudo chmod -R 755 /var/www/html"</pre> </li>
 if you get a premission error
 <br>
 <br>
