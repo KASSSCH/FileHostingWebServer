@@ -53,6 +53,7 @@ all the uploads will be saved in /var/www/html/uploads/
 you might need to run 
 <font color="red">"sudo chmod -R 755 /var/www/html" </font>
 if the you get a premission error
+<br>
 once you've done all the steps you should have something like this 
 <img src="screenshot3.PNG">
 
