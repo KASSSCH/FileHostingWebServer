@@ -40,9 +40,10 @@ make sure you're in the /Downloads directory
 your /var/www/html/ should look like this 
 <img src="screenshot1.PNG">
 <li>open a terminal in the same directory</li>
-<font color="red">" sudo python app.py "</font>
+<li>" sudo python app.py "</li>
 <li>then open a new terminal in the same directory and run </li>
 <li>" python3 -m gunicorn -w 4 -b 127.0.0.1:8080 app:app "</li>
+<li>once again open a new terminal wherever you like and run</li>
 <li>"ngrok http 5000"</li>
 <br>
 it should look something like this <img src="screenshot2.PNG">
