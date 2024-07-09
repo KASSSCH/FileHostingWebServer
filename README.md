@@ -21,7 +21,6 @@ to install them first:
 <h2>NGROK INSTALLATION: </h2>
 make sure you're in the /Downloads directory
 <li> " wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz "</li>
-<br>
 <li> "tar zxvf /path/to/ngrok.tgz"</li>
 <li> "./ngrok authtoken [your_auth_token]"</li>
 <br>
@@ -43,9 +42,9 @@ your /var/www/html/ should look like this
 <li>open a terminal in the same directory</li>
 <font color="red">" sudo python app.py "</font>
 <li>then open a new terminal in the same directory and run </li>
-<font color="red">" python3 -m gunicorn -w 4 -b 127.0.0.1:8080 app:app "</font>
-<font color="red">"ngrok http 5000"</font>
-<li>in a new terminal that can be in any directory"</li>
+<li>" python3 -m gunicorn -w 4 -b 127.0.0.1:8080 app:app "</li>
+<li>"ngrok http 5000"</li>
+<br>
 it should look something like this <img src="screenshot2.PNG">
 
 NGROK will give you a url you can share it with friends from anywhere to share files!
