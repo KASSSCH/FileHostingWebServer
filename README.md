@@ -21,6 +21,7 @@ to install them first:
 <h2>NGROK INSTALLATION: </h2>
 make sure you're in the /Downloads directory
 <font color="red"> " wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz "</font>
+<br>
 <font color="red"> "tar zxvf /path/to/ngrok.tgz"</font>
 <font color="red"> "./ngrok authtoken [your_auth_token]"</font>
 <br>
