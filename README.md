@@ -6,7 +6,7 @@ Files Hosting webserver using ngrok
 Basic webpage made for hosting files and accessing them from any part of the globe, with the help on ngrok, could be also used for sharing files with friends on the fly!
 using python-flask, html/js , gunicorn, and ngrok. easy to use just follow the instructions!
 
-<h1 font color="green">installation</h1>
+<h1 color="green">installation</h1>
 First make sure that you have:
 <ul>
   <li>ngrok</li>
