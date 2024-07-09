@@ -23,6 +23,7 @@ make sure you're in the /Downloads directory
 <font color="red"> " wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz "</font>
 <font color="red"> "tar zxvf /path/to/ngrok.tgz"</font>
 <font color="red"> "./ngrok authtoken [your_auth_token]"</font>
+<br>
 <b> TO GET YOUR TOKEN GO TO NGROK.COM AND REGISTER...</b>
 <div>
 <a href="https://www.youtube.com/watch?v=LYmhwKVNjk4&ab_channel=TECHDHEE">Here is a youtube guide</a>
