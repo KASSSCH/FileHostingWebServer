@@ -54,6 +54,7 @@ you might need to run
 <li>"sudo chmod -R 755 /var/www/html" </li>
 if you get a premission error
 <br>
+<br>
 once you've done all the steps you should have something like this 
 <img src="screenshot3.PNG">
 
