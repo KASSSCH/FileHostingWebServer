@@ -33,7 +33,7 @@ make sure you're in the /Downloads directory
 <pre>" pip install Flask "</pre>
 
 <h2>GUNICORN INSTALLATION: </h2>
-<pre>" pip install gunicorn "<pre>
+<pre>" pip install gunicorn "</pre>
 
 <h1>After that you've installed everything we'll start with the server</h1>
 <li> put "app.py" and "/templates/" and "/uploads/" and "/instance/" in var/www/html/ </li>
