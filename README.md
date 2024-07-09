@@ -51,8 +51,8 @@ it should look something like this <img src="screenshot2.PNG">
 NGROK will give you a url you can share it with friends from anywhere to share files!
 all the uploads will be saved in /var/www/html/uploads/
 you might need to run 
-<font color="red">"sudo chmod -R 755 /var/www/html" </font>
-if the you get a premission error
+<li>"sudo chmod -R 755 /var/www/html" </li>
+if you get a premission error
 <br>
 once you've done all the steps you should have something like this 
 <img src="screenshot3.PNG">
