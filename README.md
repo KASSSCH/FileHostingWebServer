@@ -57,6 +57,8 @@ if you get a premission error
 <br>
 once you've done all the steps you should have something like this 
 <img src="screenshot3.PNG">
+<br>
+<p>It is suggested to work more on the front end (css, js) and have a good design. however, this works!</p>
 
 For any help join my discord server 
 <a href="https://discord.gg/587R6vqK8w">JOIN SERVER!</a>
