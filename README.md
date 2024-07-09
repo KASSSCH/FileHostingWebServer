@@ -20,7 +20,7 @@ First make sure that you have:
 to install them first:
 <h2>NGROK INSTALLATION: </h2>
 make sure you're in the /Downloads directory
-<font color="red"> " wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz "</font>
+<li> " wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz "</li>
 <br>
 <li> "tar zxvf /path/to/ngrok.tgz"</li>
 <li> "./ngrok authtoken [your_auth_token]"</li>
