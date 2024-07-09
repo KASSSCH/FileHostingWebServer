@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<title>FilesBin</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }
+
+            a:hover {
+                text-decoration: underline;
+            }
+    </style>
+</head>
+<body>
+    <h1>List of Files</h1>
+    <ul id="fileList">
+        Loading file list...
+    </ul>
+    <h1>Upload Files</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="Upload">
+    </form>
+    <script>
+
+        $(document).ready(function() {
+            $.getJSON('/config', function(data) {
+                $('#config').html('<pre>app = Flask("' + data.app + '")\nUPLOAD_FOLDER = \'' + data.UPLOAD_FOLDER + '\'</pre>');
+            });
+
+
+            $.getJSON('/files', function(data) {
+                var files = data.files;
+                var fileList = $('#fileList');
+                fileList.empty();
+                files.forEach(function(file) {
+                    var listItem = $('<li><a href="/download/' + file + '">' + file + '</a></li>');
+                    fileList.append(listItem);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
