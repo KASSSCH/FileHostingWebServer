@@ -35,7 +35,7 @@ make sure you're in the /Downloads directory
 <li>" pip install gunicorn "</li>
 
 <h1>After that you've installed everything we'll start with the server</h1>
-<li> put "app.py" and "/templates/index.html" and "/uploads/" and "/instance/" in var/www/html/ </li>
+<li> put "app.py" and "/templates/" and "/uploads/" and "/instance/" in var/www/html/ </li>
 your /var/www/html/ should look like this 
 <img src="screenshot1.PNG">
 <li>open a terminal in the same directory</li>
